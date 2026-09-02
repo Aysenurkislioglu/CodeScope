@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.chroma/
+dist/
+build/
+.DS_Store
+.pytest_cache/
+.coverage
