@@ -1,4 +1,4 @@
-# CodeScope
+# CodeScope 🔭
 
 > **Bring your codebase into focus.**
 
