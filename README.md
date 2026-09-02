@@ -1,6 +1,6 @@
-# RepoLens
+# CodeScope
 
-AI Codebase Assistant. RepoLens starts by safely scanning a local repository, cataloguing supported code and documentation files, and presenting the result in a focused workspace. RAG, embeddings, and LLM answers are intentional later phases.
+AI Codebase Assistant. CodeScope starts by safely scanning a local repository, cataloguing supported code and documentation files, and presenting the result in a focused workspace. RAG, embeddings, and LLM answers are intentional later phases.
 
 ## Features
 
@@ -58,7 +58,7 @@ Copy `.env.example` to `.env` when configuration is needed. Never commit `.env`.
 1. Enter the absolute path of a local repository.
 2. The backend walks it without following symlinks.
 3. Ignored directories, `.env*` files, binary files, and files above 1 MB are skipped.
-4. RepoLens returns supported file metadata and scan totals.
+4. CodeScope returns supported file metadata and scan totals.
 
 ## Repository Indexing
 

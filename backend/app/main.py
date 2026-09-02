@@ -7,7 +7,7 @@ from .models import Repository, RepositoryCreateRequest, RepositoryCreated
 from .repository_store import RepositoryStore
 from .scanner import ScanError
 
-app = FastAPI(title="RepoLens API", version="0.1.0")
+app = FastAPI(title="CodeScope API", version="0.1.0")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 store = RepositoryStore()
 

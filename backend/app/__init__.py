@@ -1,1 +1,1 @@
-"""RepoLens API package."""
+"""CodeScope API package."""
